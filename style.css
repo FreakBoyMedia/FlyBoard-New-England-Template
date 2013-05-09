@@ -1407,10 +1407,13 @@ form div {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	background-color: #fff;
-	border: 1px solid #e5e5e5;
+	border: none;
 	border-radius: 4px;
-	padding-bottom: 40px;
+	padding-bottom: 0px;
+	padding-top: 0px;
 	width: 99.893617021277%;
+	max-height: 481px;
+	margin-top: 40px;
 }
 
 #featured p {
@@ -1418,7 +1421,7 @@ form div {
 	font-weight: 200;
 	line-height: 27px;
 	padding: 0 40px 0 40px;
-	text-align: center;
+	text-align: left;
 }
 
 #featured-image {

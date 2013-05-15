@@ -26,12 +26,12 @@ if ( !defined('ABSPATH')) exit;
             <?php if (!dynamic_sidebar('home-widget-1')) : ?>
             <div class="widget-wrapper">
             
-                <div class="widget-title-home"><h3><?php 
-            $page_id = 17;
+            <a href="/book"><div class="widget-title-home"><h3><?php 
+            $page_id = 33;
             $page_data = get_page( $page_id );
-            echo $page_data->post_title; ?></h3></div>
+            echo $page_data->post_title; ?></h3></div></a>
                 <div class="textwidget"><?php 
-            $page_id = 17;
+            $page_id = 33;
             $page_data = get_page( $page_id );
             echo $page_data->post_excerpt; ?></div>
             
@@ -47,12 +47,12 @@ if ( !defined('ABSPATH')) exit;
 			<?php if (!dynamic_sidebar('home-widget-2')) : ?>
             <div class="widget-wrapper">
             
-                <div class="widget-title-home"><h3><?php 
-            $page_id = 18;
+                <a href="/learn-flyboard"><div class="widget-title-home"><h3><?php 
+            $page_id = 40;
             $page_data = get_page( $page_id );
-            echo $page_data->post_title; ?></h3></div>
+            echo $page_data->post_title; ?></h3></div></a>
                 <div class="textwidget"><?php 
-            $page_id = 18;
+            $page_id = 40;
             $page_data = get_page( $page_id );
             echo $page_data->post_excerpt; ?></div>
             
@@ -68,12 +68,12 @@ if ( !defined('ABSPATH')) exit;
 			<?php if (!dynamic_sidebar('home-widget-3')) : ?>
             <div class="widget-wrapper">
             
-                <div class="widget-title-home"><h3><?php 
-            $page_id = 43;
+                <a href="/contact-flyboard-new-england"><div class="widget-title-home"><h3><?php 
+            $page_id = 37;
             $page_data = get_page( $page_id );
-            echo $page_data->post_title; ?></h3></div>
+            echo $page_data->post_title; ?></h3></div></a>
                 <div class="textwidget"><?php 
-            $page_id = 43;
+            $page_id = 37;
             $page_data = get_page( $page_id );
             echo $page_data->post_excerpt; ?></div>
         
